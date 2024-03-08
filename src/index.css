@@ -63,6 +63,9 @@ a {
   color: #918E9B;
   font-size: 0.65rem;
 }
+a:hover,a:active{
+  color: #4287f5;
+}
 h1 {
   margin-top: 1px;
   margin-bottom: 10px;
@@ -81,9 +84,23 @@ h3 {
     font-size: 2rem;
   }
   h3 {
-    font-size: 1.5;
+    font-size: 1.5rem;
   }
   a,.country {
     font-size: 1rem;
+  }
+}
+@media (max-width:350px){
+  .card-container{
+    flex-direction: column;
+    padding: 1em;
+    -webkit-box-shadow: -2px 23px 41px -10px rgba(138,131,138,1);
+    -moz-box-shadow: -2px 23px 41px -10px rgba(138,131,138,1);
+    box-shadow: -2px 23px 41px -10px rgba(138,131,138,1);
+    border-radius: 5px;
+  }
+  .location-img {
+    width: 100%;
+    max-height: 175px;
   }
 }
