@@ -36,7 +36,7 @@ Open http://localhost:3000 to view it in your browser.
 The page will reload when you make changes.
 
 
-##Project Structure
+## Project Structure
 * src/: Contains the source code of the React components and application logic.
 * public/: Static assets and HTML template.
 * vite.config.js: Vite configuration file for project setup.
